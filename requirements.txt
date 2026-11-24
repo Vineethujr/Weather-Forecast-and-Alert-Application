@@ -1,0 +1,18 @@
+# HTTP networking for live weather API calls
+requests>=2.31.0
+
+# Data analysis, tabular transformations, and statistical summaries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Weather data visualization and chart generation
+matplotlib>=3.7.0
+
+# Environment variable management (loading .env files securely)
+python-dotenv>=1.0.0
+
+# Interactive web dashboard interface
+streamlit>=1.28.0
+
+# Automated testing framework for alert rules and data processing
+pytest>=7.4.0

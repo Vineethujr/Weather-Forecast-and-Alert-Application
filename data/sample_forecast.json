@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "data_source": "SIMULATED",
+    "is_simulated": true,
+    "description": "Multi-interval 24-hour forecast simulation fixtures for testing statistical analysis, visualization charts, and predictive alert detection.",
+    "generated_for": "Weather Forecast & Alert Application",
+    "disclaimer": "All forecast intervals are synthetic simulation fixtures and must not be used as official safety broadcasts.",
+    "interval_hours": 3,
+    "total_timesteps_per_scenario": 8,
+    "units": {
+      "temperature": "°C",
+      "humidity": "%",
+      "wind_speed": "km/h",
+      "precipitation_amount": "mm",
+      "precipitation_probability": "%"
+    }
+  },
+  "forecasts": {
+    "normal_weather": {
+      "scenario_id": "normal_weather",
+      "scenario_name": "Normal Mild Weather Forecast",
+      "city": "Mangaluru",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-11-24T06:00:00+05:30",
+          "temperature": 23.0,
+          "humidity": 70.0,
+          "precipitation_probability": 5.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 10.0,
+          "weather_code": 0,
+          "weather_condition": "Clear Sky"
+        },
+        {
+          "timestamp": "2026-11-24T09:00:00+05:30",
+          "temperature": 26.2,
+          "humidity": 65.0,
+          "precipitation_probability": 10.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 12.5,
+          "weather_code": 1,
+          "weather_condition": "Mainly Clear"
+        },
+        {
+          "timestamp": "2026-11-24T12:00:00+05:30",
+          "temperature": 28.5,
+          "humidity": 60.0,
+          "precipitation_probability": 15.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 15.0,
+          "weather_code": 2,
+          "weather_condition": "Partly Cloudy"
+        },
+        {
+          "timestamp": "2026-11-24T15:00:00+05:30",
+          "temperature": 29.0,
+          "humidity": 58.0,
+          "precipitation_probability": 10.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 16.0,
+          "weather_code": 2,
+          "weather_condition": "Partly Cloudy"
+        },
+        {
+          "timestamp": "2026-11-24T18:00:00+05:30",
+          "temperature": 27.0,
+          "humidity": 64.0,
+          "precipitation_probability": 5.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 13.0,
+          "weather_code": 1,
+          "weather_condition": "Mainly Clear"
+        },
+        {
+          "timestamp": "2026-11-24T21:00:00+05:30",
+          "temperature": 25.5,
+          "humidity": 68.0,
+          "precipitation_probability": 5.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 11.0,
+          "weather_code": 0,
+          "weather_condition": "Clear Sky"
+        },
+        {
+          "timestamp": "2026-11-25T00:00:00+05:30",
+          "temperature": 24.0,
+          "humidity": 72.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 9.0,
+          "weather_code": 0,
+          "weather_condition": "Clear Sky"
+        },
+        {
+          "timestamp": "2026-11-25T03:00:00+05:30",
+          "temperature": 22.8,
+          "humidity": 75.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 8.5,
+          "weather_code": 0,
+          "weather_condition": "Clear Sky"
+        }
+      ]
+    },
+    "extreme_heat": {
+      "scenario_id": "extreme_heat",
+      "scenario_name": "Extreme Heatwave Forecast",
+      "city": "Delhi",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-05-18T06:00:00+05:30",
+          "temperature": 32.0,
+          "humidity": 45.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 12.0,
+          "weather_code": 0,
+          "weather_condition": "Clear and Warm"
+        },
+        {
+          "timestamp": "2026-05-18T09:00:00+05:30",
+          "temperature": 37.5,
+          "humidity": 38.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 14.0,
+          "weather_code": 0,
+          "weather_condition": "Sunny and Hot"
+        },
+        {
+          "timestamp": "2026-05-18T12:00:00+05:30",
+          "temperature": 42.0,
+          "humidity": 32.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 17.0,
+          "weather_code": 0,
+          "weather_condition": "Extreme Heat"
+        },
+        {
+          "timestamp": "2026-05-18T15:00:00+05:30",
+          "temperature": 44.5,
+          "humidity": 28.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 19.5,
+          "weather_code": 0,
+          "weather_condition": "Peak Heatwave Hazard"
+        },
+        {
+          "timestamp": "2026-05-18T18:00:00+05:30",
+          "temperature": 41.0,
+          "humidity": 31.0,
+          "precipitation_probability": 5.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 16.0,
+          "weather_code": 0,
+          "weather_condition": "Scorching Evening"
+        },
+        {
+          "timestamp": "2026-05-18T21:00:00+05:30",
+          "temperature": 36.8,
+          "humidity": 35.0,
+          "precipitation_probability": 5.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 13.0,
+          "weather_code": 0,
+          "weather_condition": "Warm Night"
+        },
+        {
+          "timestamp": "2026-05-19T00:00:00+05:30",
+          "temperature": 34.0,
+          "humidity": 40.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 11.0,
+          "weather_code": 0,
+          "weather_condition": "Warm Night"
+        },
+        {
+          "timestamp": "2026-05-19T03:00:00+05:30",
+          "temperature": 31.5,
+          "humidity": 43.0,
+          "precipitation_probability": 0.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 9.5,
+          "weather_code": 0,
+          "weather_condition": "Clear Sky"
+        }
+      ]
+    },
+    "heavy_rainfall": {
+      "scenario_id": "heavy_rainfall",
+      "scenario_name": "Severe Monsoon Downpour Forecast",
+      "city": "Mumbai",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-07-15T06:00:00+05:30",
+          "temperature": 26.0,
+          "humidity": 88.0,
+          "precipitation_probability": 75.0,
+          "precipitation_amount": 15.0,
+          "wind_speed": 28.0,
+          "weather_code": 61,
+          "weather_condition": "Moderate Rain"
+        },
+        {
+          "timestamp": "2026-07-15T09:00:00+05:30",
+          "temperature": 25.2,
+          "humidity": 94.0,
+          "precipitation_probability": 95.0,
+          "precipitation_amount": 42.0,
+          "wind_speed": 34.0,
+          "weather_code": 65,
+          "weather_condition": "Heavy Downpour"
+        },
+        {
+          "timestamp": "2026-07-15T12:00:00+05:30",
+          "temperature": 24.8,
+          "humidity": 96.0,
+          "precipitation_probability": 98.0,
+          "precipitation_amount": 55.0,
+          "wind_speed": 40.0,
+          "weather_code": 65,
+          "weather_condition": "Torrential Monsoon Rain"
+        },
+        {
+          "timestamp": "2026-07-15T15:00:00+05:30",
+          "temperature": 25.0,
+          "humidity": 95.0,
+          "precipitation_probability": 90.0,
+          "precipitation_amount": 35.0,
+          "wind_speed": 36.0,
+          "weather_code": 63,
+          "weather_condition": "Heavy Rain Showers"
+        },
+        {
+          "timestamp": "2026-07-15T18:00:00+05:30",
+          "temperature": 25.5,
+          "humidity": 92.0,
+          "precipitation_probability": 80.0,
+          "precipitation_amount": 20.0,
+          "wind_speed": 30.0,
+          "weather_code": 61,
+          "weather_condition": "Continuous Rain"
+        },
+        {
+          "timestamp": "2026-07-15T21:00:00+05:30",
+          "temperature": 25.0,
+          "humidity": 90.0,
+          "precipitation_probability": 70.0,
+          "precipitation_amount": 12.0,
+          "wind_speed": 26.0,
+          "weather_code": 61,
+          "weather_condition": "Light to Moderate Rain"
+        },
+        {
+          "timestamp": "2026-07-16T00:00:00+05:30",
+          "temperature": 24.5,
+          "humidity": 89.0,
+          "precipitation_probability": 65.0,
+          "precipitation_amount": 8.0,
+          "wind_speed": 22.0,
+          "weather_code": 53,
+          "weather_condition": "Intermittent Drizzle"
+        },
+        {
+          "timestamp": "2026-07-16T03:00:00+05:30",
+          "temperature": 24.0,
+          "humidity": 88.0,
+          "precipitation_probability": 55.0,
+          "precipitation_amount": 4.0,
+          "wind_speed": 20.0,
+          "weather_code": 51,
+          "weather_condition": "Light Rain"
+        }
+      ]
+    },
+    "strong_winds": {
+      "scenario_id": "strong_winds",
+      "scenario_name": "Coastal Gale & Strong Winds Forecast",
+      "city": "Chennai Coast",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-10-22T06:00:00+05:30",
+          "temperature": 27.5,
+          "humidity": 72.0,
+          "precipitation_probability": 25.0,
+          "precipitation_amount": 1.0,
+          "wind_speed": 32.0,
+          "weather_code": 51,
+          "weather_condition": "Breezy Overcast"
+        },
+        {
+          "timestamp": "2026-10-22T09:00:00+05:30",
+          "temperature": 28.0,
+          "humidity": 70.0,
+          "precipitation_probability": 35.0,
+          "precipitation_amount": 2.5,
+          "wind_speed": 42.0,
+          "weather_code": 53,
+          "weather_condition": "Squally Winds"
+        },
+        {
+          "timestamp": "2026-10-22T12:00:00+05:30",
+          "temperature": 28.6,
+          "humidity": 73.0,
+          "precipitation_probability": 40.0,
+          "precipitation_amount": 3.0,
+          "wind_speed": 52.0,
+          "weather_code": 55,
+          "weather_condition": "Gale Force Winds"
+        },
+        {
+          "timestamp": "2026-10-22T15:00:00+05:30",
+          "temperature": 28.2,
+          "humidity": 75.0,
+          "precipitation_probability": 50.0,
+          "precipitation_amount": 5.0,
+          "wind_speed": 61.5,
+          "weather_code": 55,
+          "weather_condition": "Severe Coastal Gale Gusts"
+        },
+        {
+          "timestamp": "2026-10-22T18:00:00+05:30",
+          "temperature": 27.8,
+          "humidity": 78.0,
+          "precipitation_probability": 45.0,
+          "precipitation_amount": 4.0,
+          "wind_speed": 56.0,
+          "weather_code": 53,
+          "weather_condition": "Strong Winds with Showers"
+        },
+        {
+          "timestamp": "2026-10-22T21:00:00+05:30",
+          "temperature": 27.2,
+          "humidity": 80.0,
+          "precipitation_probability": 35.0,
+          "precipitation_amount": 2.0,
+          "wind_speed": 46.0,
+          "weather_code": 51,
+          "weather_condition": "Gusty Winds"
+        },
+        {
+          "timestamp": "2026-10-23T00:00:00+05:30",
+          "temperature": 26.8,
+          "humidity": 81.0,
+          "precipitation_probability": 25.0,
+          "precipitation_amount": 0.5,
+          "wind_speed": 38.0,
+          "weather_code": 3,
+          "weather_condition": "Overcast and Windy"
+        },
+        {
+          "timestamp": "2026-10-23T03:00:00+05:30",
+          "temperature": 26.4,
+          "humidity": 82.0,
+          "precipitation_probability": 20.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 30.0,
+          "weather_code": 2,
+          "weather_condition": "Moderate Breeze"
+        }
+      ]
+    },
+    "high_humidity": {
+      "scenario_id": "high_humidity",
+      "scenario_name": "Tropical High Humidity Forecast",
+      "city": "Kolkata",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-08-10T06:00:00+05:30",
+          "temperature": 29.0,
+          "humidity": 93.0,
+          "precipitation_probability": 20.0,
+          "precipitation_amount": 0.2,
+          "wind_speed": 8.0,
+          "weather_code": 3,
+          "weather_condition": "Dense Morning Mist & Overcast"
+        },
+        {
+          "timestamp": "2026-08-10T09:00:00+05:30",
+          "temperature": 31.5,
+          "humidity": 91.0,
+          "precipitation_probability": 25.0,
+          "precipitation_amount": 0.5,
+          "wind_speed": 10.0,
+          "weather_code": 3,
+          "weather_condition": "High Humidity Overcast"
+        },
+        {
+          "timestamp": "2026-08-10T12:00:00+05:30",
+          "temperature": 33.5,
+          "humidity": 89.5,
+          "precipitation_probability": 35.0,
+          "precipitation_amount": 1.2,
+          "wind_speed": 12.0,
+          "weather_code": 3,
+          "weather_condition": "Oppressive Sultry Heat"
+        },
+        {
+          "timestamp": "2026-08-10T15:00:00+05:30",
+          "temperature": 34.0,
+          "humidity": 88.0,
+          "precipitation_probability": 40.0,
+          "precipitation_amount": 2.0,
+          "wind_speed": 13.5,
+          "weather_code": 3,
+          "weather_condition": "High Heat Index"
+        },
+        {
+          "timestamp": "2026-08-10T18:00:00+05:30",
+          "temperature": 32.2,
+          "humidity": 92.0,
+          "precipitation_probability": 30.0,
+          "precipitation_amount": 0.8,
+          "wind_speed": 11.0,
+          "weather_code": 3,
+          "weather_condition": "Humid Evening"
+        },
+        {
+          "timestamp": "2026-08-10T21:00:00+05:30",
+          "temperature": 30.5,
+          "humidity": 94.0,
+          "precipitation_probability": 25.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 9.0,
+          "weather_code": 3,
+          "weather_condition": "Sultry Night"
+        },
+        {
+          "timestamp": "2026-08-11T00:00:00+05:30",
+          "temperature": 29.8,
+          "humidity": 95.0,
+          "precipitation_probability": 20.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 7.5,
+          "weather_code": 3,
+          "weather_condition": "Humid Night"
+        },
+        {
+          "timestamp": "2026-08-11T03:00:00+05:30",
+          "temperature": 29.2,
+          "humidity": 96.0,
+          "precipitation_probability": 15.0,
+          "precipitation_amount": 0.0,
+          "wind_speed": 7.0,
+          "weather_code": 3,
+          "weather_condition": "Foggy Damp Dawn"
+        }
+      ]
+    },
+    "compound_risks": {
+      "scenario_id": "compound_risks",
+      "scenario_name": "Severe Compound Multi-Hazard Forecast",
+      "testing_purpose": "Synthetic stress-test scenario intentionally constructed to evaluate simultaneous boundary-condition software alert triggering (extreme heat + cyclonic gale + downpour + saturated humidity). This is not intended to model a typical meteorological event.",
+      "city": "Kochi Coastal Harbor",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "intervals": [
+        {
+          "timestamp": "2026-06-28T06:00:00+05:30",
+          "temperature": 34.0,
+          "humidity": 86.0,
+          "precipitation_probability": 55.0,
+          "precipitation_amount": 8.0,
+          "wind_speed": 35.0,
+          "weather_code": 55,
+          "weather_condition": "Sultry Pre-Storm Squalls"
+        },
+        {
+          "timestamp": "2026-06-28T09:00:00+05:30",
+          "temperature": 38.5,
+          "humidity": 87.0,
+          "precipitation_probability": 70.0,
+          "precipitation_amount": 18.0,
+          "wind_speed": 45.0,
+          "weather_code": 63,
+          "weather_condition": "Intensifying Storm Activity"
+        },
+        {
+          "timestamp": "2026-06-28T12:00:00+05:30",
+          "temperature": 41.5,
+          "humidity": 89.0,
+          "precipitation_probability": 85.0,
+          "precipitation_amount": 45.0,
+          "wind_speed": 55.0,
+          "weather_code": 95,
+          "weather_condition": "Severe Compound Hazard Peak"
+        },
+        {
+          "timestamp": "2026-06-28T15:00:00+05:30",
+          "temperature": 40.8,
+          "humidity": 90.0,
+          "precipitation_probability": 92.0,
+          "precipitation_amount": 68.0,
+          "wind_speed": 64.0,
+          "weather_code": 95,
+          "weather_condition": "Violent Squall & Downpour"
+        },
+        {
+          "timestamp": "2026-06-28T18:00:00+05:30",
+          "temperature": 37.0,
+          "humidity": 92.0,
+          "precipitation_probability": 88.0,
+          "precipitation_amount": 40.0,
+          "wind_speed": 58.0,
+          "weather_code": 95,
+          "weather_condition": "High Gale & Torrential Rain"
+        },
+        {
+          "timestamp": "2026-06-28T21:00:00+05:30",
+          "temperature": 33.5,
+          "humidity": 91.0,
+          "precipitation_probability": 78.0,
+          "precipitation_amount": 25.0,
+          "wind_speed": 48.0,
+          "weather_code": 65,
+          "weather_condition": "Heavy Rain & Strong Breeze"
+        },
+        {
+          "timestamp": "2026-06-29T00:00:00+05:30",
+          "temperature": 30.0,
+          "humidity": 89.0,
+          "precipitation_probability": 65.0,
+          "precipitation_amount": 14.0,
+          "wind_speed": 38.0,
+          "weather_code": 63,
+          "weather_condition": "Moderate Rain with Gusts"
+        },
+        {
+          "timestamp": "2026-06-29T03:00:00+05:30",
+          "temperature": 28.5,
+          "humidity": 88.0,
+          "precipitation_probability": 50.0,
+          "precipitation_amount": 6.0,
+          "wind_speed": 28.0,
+          "weather_code": 61,
+          "weather_condition": "Passing Showers"
+        }
+      ]
+    }
+  }
+}

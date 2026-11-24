@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Environment variables & secrets (CRITICAL: Never commit to Git)
+.env
+.env.local
+
+# Generated dynamic reports and charts (keep folder tracked via .gitkeep)
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Project screenshots and diagrams in images/ are tracked for GitHub documentation
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
+!images/*.gif
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/

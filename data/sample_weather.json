@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "data_source": "SIMULATED",
+    "is_simulated": true,
+    "description": "Offline current weather simulation fixtures representing six distinct meteorological conditions for testing alert rules without live API connectivity.",
+    "generated_for": "Weather Forecast & Alert Application",
+    "disclaimer": "All measurements in this file are simulated synthetic benchmarks and do not represent actual certified meteorological agency observations.",
+    "units": {
+      "temperature": "°C",
+      "humidity": "%",
+      "wind_speed": "km/h",
+      "precipitation_amount": "mm",
+      "precipitation_probability": "%"
+    }
+  },
+  "scenarios": {
+    "normal_weather": {
+      "scenario_id": "normal_weather",
+      "scenario_name": "Normal Mild Weather",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "city": "Mangaluru",
+      "country": "India",
+      "coordinates": {
+        "latitude": 12.9141,
+        "longitude": 74.8560
+      },
+      "timestamp": "2026-11-24T14:00:00+05:30",
+      "current": {
+        "temperature": 27.5,
+        "humidity": 62.0,
+        "wind_speed": 14.5,
+        "precipitation_probability": 10.0,
+        "precipitation_amount": 0.0,
+        "weather_code": 1,
+        "weather_condition": "Partly Cloudy",
+        "expected_alerts": []
+      }
+    },
+    "extreme_heat": {
+      "scenario_id": "extreme_heat",
+      "scenario_name": "Extreme Heatwave",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "city": "Delhi",
+      "country": "India",
+      "coordinates": {
+        "latitude": 28.6139,
+        "longitude": 77.2090
+      },
+      "timestamp": "2026-05-18T14:30:00+05:30",
+      "current": {
+        "temperature": 43.8,
+        "humidity": 32.0,
+        "wind_speed": 18.2,
+        "precipitation_probability": 5.0,
+        "precipitation_amount": 0.0,
+        "weather_code": 0,
+        "weather_condition": "Clear and Scorching Heat",
+        "expected_alerts": [
+          "High Temperature Alert"
+        ]
+      }
+    },
+    "heavy_rainfall": {
+      "scenario_id": "heavy_rainfall",
+      "scenario_name": "Severe Monsoon Downpour",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "city": "Mumbai",
+      "country": "India",
+      "coordinates": {
+        "latitude": 19.0760,
+        "longitude": 72.8777
+      },
+      "timestamp": "2026-07-15T09:00:00+05:30",
+      "current": {
+        "temperature": 25.2,
+        "humidity": 94.0,
+        "wind_speed": 34.0,
+        "precipitation_probability": 95.0,
+        "precipitation_amount": 62.5,
+        "weather_code": 65,
+        "weather_condition": "Heavy Continuous Rain",
+        "expected_alerts": [
+          "High Humidity Alert",
+          "Rain Alert"
+        ]
+      }
+    },
+    "strong_winds": {
+      "scenario_id": "strong_winds",
+      "scenario_name": "Coastal Gale & Strong Winds",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "city": "Chennai Coast",
+      "country": "India",
+      "coordinates": {
+        "latitude": 13.0827,
+        "longitude": 80.2707
+      },
+      "timestamp": "2026-10-22T17:00:00+05:30",
+      "current": {
+        "temperature": 28.4,
+        "humidity": 74.0,
+        "wind_speed": 58.5,
+        "precipitation_probability": 45.0,
+        "precipitation_amount": 4.2,
+        "weather_code": 55,
+        "weather_condition": "High Gale Winds with Squalls",
+        "expected_alerts": [
+          "High Wind Alert"
+        ]
+      }
+    },
+    "high_humidity": {
+      "scenario_id": "high_humidity",
+      "scenario_name": "Tropical High Humidity",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "city": "Kolkata",
+      "country": "India",
+      "coordinates": {
+        "latitude": 22.5726,
+        "longitude": 88.3639
+      },
+      "timestamp": "2026-08-10T12:00:00+05:30",
+      "current": {
+        "temperature": 33.1,
+        "humidity": 91.5,
+        "wind_speed": 12.0,
+        "precipitation_probability": 35.0,
+        "precipitation_amount": 1.0,
+        "weather_code": 3,
+        "weather_condition": "Dense Overcast and Sultry",
+        "expected_alerts": [
+          "High Humidity Alert"
+        ]
+      }
+    },
+    "compound_risks": {
+      "scenario_id": "compound_risks",
+      "scenario_name": "Severe Compound Multi-Hazard Weather",
+      "data_source": "SIMULATED",
+      "is_simulated": true,
+      "testing_purpose": "Synthetic stress-test scenario intentionally constructed to evaluate simultaneous boundary-condition software alert triggering (extreme heat + cyclonic gale + downpour + saturated humidity). This is not intended to model a typical meteorological event.",
+      "city": "Kochi Coastal Harbor",
+      "country": "India",
+      "coordinates": {
+        "latitude": 9.9312,
+        "longitude": 76.2673
+      },
+      "timestamp": "2026-06-28T15:30:00+05:30",
+      "current": {
+        "temperature": 41.5,
+        "humidity": 89.0,
+        "wind_speed": 62.0,
+        "precipitation_probability": 88.0,
+        "precipitation_amount": 75.0,
+        "weather_code": 95,
+        "weather_condition": "Severe Cyclonic Storm & Extreme Heat Precursor",
+        "expected_alerts": [
+          "High Temperature Alert",
+          "High Humidity Alert",
+          "Rain Alert",
+          "High Wind Alert"
+        ]
+      }
+    }
+  }
+}
